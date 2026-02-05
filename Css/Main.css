@@ -1,0 +1,106 @@
+body{
+    background-color: #140F2D;
+    margin: 8px;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 10px;
+}
+
+footer{
+    padding-bottom: 20px;
+}
+
+footer h3{
+    padding: 10px;
+    color: white;
+    text-align: left;
+    background-color: #2A2D34;
+    border: none;
+}
+
+footer p {
+    margin: auto auto auto 8px;
+}
+
+footer img {
+    width: 40px;
+    height: auto;
+}
+
+footer span {
+    color:#F25757
+}
+
+header, footer{
+    background-color: #2A2D34;
+    width: 100%;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+}
+nav{
+    display: flex;
+}
+
+nav a{
+    color: white;
+    margin: 25px 15px auto 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1{
+    margin:20px auto 10px 30px;
+}
+
+h2{
+    color: white;
+    background-color: #F25757;
+    margin: 30px 200px 20px 30px;
+    padding: 5px 3px 5px 15px;
+    text-align: left;
+    width: 70%;
+    border-radius: 10px;
+}
+
+h3{
+    font-size: 1.1em;
+    margin: 10px auto auto 5px;
+}
+
+a img:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.infosdivers{
+    display: flex; flex-direction: column;
+}
+
+.renseignement{
+    display: flex ;
+    margin: 10px auto auto 20px;
+}
+
+.baspage {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icones {
+      position: absolute;
+    bottom: 0px;
+    right: 20px;
+
+    display: flex;
+    gap: 10px;
+}

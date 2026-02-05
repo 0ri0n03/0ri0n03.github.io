@@ -1,0 +1,15 @@
+body{background-image: url(images/fond.png); background-repeat: repeat-y; background-position: top center; font-family: Verdana; color: #393939; font-size: 13px;}
+header{width: 920px; height: 135px; margin: auto; background-color: white; background-image: url(images/header.jpg); background-position-y: top; background-position-x: right; background-repeat: no-repeat;}
+nav{width: 920px; margin: auto; background-color: #000000; height: 27px; display: flex; text-align: center;}
+main{width: 920px; margin: auto; background-color: white; display: flex;}
+aside{width: 280px; padding-left: 10px;}
+article{width: 600px; padding-left: 10px;}
+.logo {margin: 20px auto auto 20px;}
+.bloc {color: white ; width: 20%; padding: 5px 10px 5px 10px;}
+.expert{display: block; margin: auto;}
+.legende {text-align: center; color: gray; font-style: italic;}
+.text1{padding: 5px; border: 1px #e3532d solid; text-align: justify;}
+.t2 {font-weight: bold; text-decoration: underline; font-style: italic; color: gray;}
+.bouton{color: #e3532d;}
+h2{color: #e3532d; text-decoration: underline;}
+h1 {background-color: #e3532d; color: white; font-size: 24px;}

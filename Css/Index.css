@@ -1,0 +1,108 @@
+main{
+    color: white;
+}
+
+article {
+    margin-left: 50px;
+}
+
+aside {
+    margin: auto auto 40px 50px;
+}
+
+article div{
+    margin-top: 20px;
+}
+
+footer h3{
+    text-decoration: none;
+}
+
+h2{
+    background-color: #337CA0;
+}
+
+h3{
+    text-decoration: underline;
+    color: white;
+}
+
+i{
+    display: block;
+    text-align: center;
+    margin: 20px auto 30px auto
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+}
+
+.intro p{
+    margin-top: 25px;
+    padding-left: 20px;
+}
+
+.intro img{
+    border-radius: 50px;
+}
+
+.formations {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    justify-content: space-between;
+}
+
+.formation {
+    border: 1px solid black;
+    background: linear-gradient(#337CA0, #E15A97);
+    color: #140F2D;
+    border-radius: 15px;
+    padding: 5px 20px 20px 20px;
+    width: 40%;
+    box-shadow: 6px 8px rgba(0, 0, 0, 0.6);
+}
+
+.formation span{
+    color: white;
+}
+
+span {
+    color :#E15A97
+}
+
+.boutons {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 40%;
+    justify-content: space-between;
+}
+
+a .bouton{
+    text-decoration: none;
+    background: linear-gradient(#71CBF8, #337CA0);
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 15px;
+    display: inline-block;
+    width: 100%;
+}
+
+a .bouton:hover{
+    background: linear-gradient(#337CA0, #71CBF8);
+    border: 1px dotted white;
+}
+
+
+@media  (max-width:412px) {
+    *{
+        flex-direction: column;
+    }
+
+}

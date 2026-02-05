@@ -1,0 +1,72 @@
+.accueil-introduction {
+  display: flex;
+  max-width: 1200px;
+  gap: 40px;
+  align-items: center;
+  margin: auto;
+}
+.accueil-photos div{
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.accueil-photos h2{
+  color: #F9F8FF;margin-top: 20px; text-align: center;
+}
+form{color: white;
+margin: auto;
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.nomail {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+label {
+  margin-bottom: 10px;
+}
+.formcolumn{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width : 996px) {
+     .accueil-introduction{
+    flex-direction: column;
+    
+    text-align: center;
+  }
+  .accueil-introduction img {
+ order: 1;
+ width: 100%;
+}
+.accueil-introduction div {
+  order: 2;
+  text-align: center;
+  padding-right: 0px;
+}
+.accueil-photos div {
+  flex-direction: column; 
+}
+form div {
+  flex-direction: column;
+}
+.nomail { 
+  flex-direction: column;
+}
+}
+section {
+    padding: 40px 20px;
+}
+main {
+    width: 100%;
+}

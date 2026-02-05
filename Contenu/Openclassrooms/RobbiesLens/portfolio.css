@@ -1,0 +1,69 @@
+.portfolio-section-photos {
+  background-color: white;
+  margin-bottom: auto;
+}
+
+.portfolio-section-photos h2{color: #242424;
+                             text-align: left; 
+                             margin-bottom: 50px;
+}
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+}
+
+.grid-paysages {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  grid-gap: 15px;
+}
+
+.grid-portraits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  grid-gap: 15px;
+}
+
+
+.voirp {
+  position: relative;
+}
+
+.inv{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+}
+
+.voirp:hover .inv {
+  display: flex;
+}
+
+@media screen and (max-width : 996px) {
+
+.grid-paysages, .grid-portraits {
+  grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.portfolio-section-photos h2 {
+margin-bottom: 5px;
+}
+
+.grid-paysages, .grid-portraits {
+  grid-template-rows: auto;
+}
+}
