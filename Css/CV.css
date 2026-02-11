@@ -1,7 +1,6 @@
 
 main{
     display: flex;
-    border: 1px solid black;
     width: 90%;
     color: black;
     margin: 50px auto 50px auto;
@@ -161,6 +160,10 @@ button:modal{
     justify-content: center;
 }
 
+.backgroundpopup a{
+    color: white;
+}
+
 #AfficherCV {
     display: flex;
     width: 80%;
@@ -187,7 +190,10 @@ button:modal{
     display: block;
     margin: 20px auto;
     width: 15%;
-    background: linear-gradient(#71CBF8, #337CA0);
+    background: linear-gradient(180deg, #71CBF8, #337CA0, #71CBF8);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 1s ease;
     color: white;
     border-radius: 30px;
     text-align: center;
@@ -195,7 +201,12 @@ button:modal{
 }
 
 #cv:hover{
-     background: linear-gradient(#337CA0, #71CBF8);
-    border: 1px dotted white;
+     background-position: bottom;
     cursor: pointer;
+}
+
+@media  (max-width:412px) {
+    #cv{
+        width: 60%
+    }
 }

@@ -30,7 +30,7 @@ a:hover{
     flex-wrap: wrap;
     gap: 40px;
     width: 90%;
-    margin: auto;
+    margin: 30px auto;
     height: auto;
     justify-content: center;
 }
@@ -40,23 +40,21 @@ a:hover{
     flex-direction: column;
     border-radius: 15px;
     min-width: 300px;
-    height: auto;
-    background-color: #2A2D34;
+    height: 100%;
+    background: linear-gradient(180deg, #E15A97, #337CA0, #E15A97);
+    background-size: 100% 200%;
+    background-position: top;
+    transition: background-position 1s ease;
     margin-bottom: 20px;
     font-size: 1em;
     box-shadow: 8px 12px rgba(0, 0, 0, 0.6);
     width: 100%;
+    border: 2px solid #2A2D34;
 }
-
 
 .element:hover{
-    background-color: #F25757;
-    border: 1px solid #2A2D34;
-}
-
-.element:hover h3{
-    color: white;
-    background-color: #BEB2C8;
+    background-position: bottom;
+    border: 2px solid #2A2D34
 }
 
 .element:hover img{
@@ -78,10 +76,11 @@ h3{
     margin: 0px auto 5px 0px;
     text-align: center;
     color: white;
-    background-color: #F25757;
+    background-color:#337CA0;
     border: 1px solid #1F2039;
     box-sizing: border-box;
     width: 100%;
+    transition: all 2s;
 }
 #bientot{
     text-align: center;
@@ -103,20 +102,28 @@ h3{
     }
 }
 
-@media  (max-width:500px) {
-
+@media  (max-width:412px) {
     p{
         font-size: 0.8em;
     }
     .IntroSection {
-        margin-left: 30px;
+        margin: 20px 30px;
     }
     .projets {
         justify-content: center;
+        grid-template-columns: 1fr;
+        grid-template-rows: 350px;
+        margin-bottom: 50px;
+    }
+    .element {
+        margin: 20px auto;
+    }
+    .element img {
+        max-height: 50%;
     }
 
     h2{
         font-size: 1em;
-        margin: 20px 50px 20px 30px;
+        margin: 20px auto;
     }
 }

@@ -1,0 +1,88 @@
+  body {
+    font-family: sans-serif;
+    background: url("../assets/Images/elden_ring.jpg") no-repeat ;
+    background-size: contain;
+    color: #eee;
+    padding: 20px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  nav img{
+    max-width: 7%;
+  }
+
+  img {
+    image-rendering: pixelated;
+    max-width: 70%;
+  }
+
+  li {
+    color: white;
+  }
+
+  table{
+    opacity: 0.8;
+    text-align: center;
+  }
+
+  td {
+    width: 25%;
+  }
+
+
+  button{
+    border-radius: 10px;
+    padding: 5px;
+
+  }
+
+#boss {
+   display: flex;
+  flex-direction: column;
+  width:100%
+}
+
+#boss-media{
+  margin: 10px auto 20px auto;
+}
+
+  .introduction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+  }
+  #intro {
+  display: flex;
+  flex-direction: column;
+    margin: 20px auto 20px 50px;
+    justify-content: space-between;
+  }
+
+  #page {
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+
+  .intro p{
+    margin: auto;
+  }
+
+  .boutons{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+  }
+
+  .separateur {
+    display: flex;
+    justify-content: space-around;
+  }
