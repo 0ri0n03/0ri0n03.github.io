@@ -126,4 +126,8 @@ h3{
         font-size: 1em;
         margin: 20px auto;
     }
+    #bientot{
+        max-height: 60%;
+        margin-top: 20px;
+    }
 }
